@@ -19,6 +19,7 @@ import streamlit as st
 def get_huggingface_response(question):
   llm_huggingface = HuggingFaceHub(repo_id="google/flan-t5-large",model_kwargs={"max_length": 128, "temperature": 0.7},)
   response=llm_huggingface(question)
+  print(response)
   return response[0]['generated_text']
 
 #initialize streamlit app
