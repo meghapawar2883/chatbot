@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1pkV-0FX8pELMOs9oDQszmYHPRAP6AJ1H
 """
 
-from langchain import HuggingFaceHub
+from langchain_community.llms import HuggingFaceHub
 import os
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
 
