@@ -7,20 +7,12 @@ Original file is located at
     https://colab.research.google.com/drive/1pkV-0FX8pELMOs9oDQszmYHPRAP6AJ1H
 """
 
-!pip install langchain-community
 from langchain import HuggingFaceHub
 import os
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
 
 
 print(os.environ.get("HUGGINGFACEHUB_API_TOKEN"))
-!pip install langchain-huggingface
-!pip install huggingface_hub
-!pip install langchain
-!pip install transformers
-!pip install accelerate
-!pip install bitsandbytes
-!pip install streamlit
 
 import streamlit as st
 
