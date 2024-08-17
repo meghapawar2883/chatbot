@@ -33,5 +33,5 @@ if submit and input:
   st.subheader("Output: ")
   st.write(response)
 
-!streamlit run chatbot.ipynb
+
 
