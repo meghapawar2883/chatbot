@@ -1,1 +1,8 @@
-
+langchain-community
+langchain-huggingface
+huggingface_hub
+langchain
+transformers
+accelerate
+bitsandbytes
+streamlit
